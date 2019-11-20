@@ -4,7 +4,8 @@ $array = array(
     "Steven van Zelst",
     "Kevi Isaza Arias",
 );
-foreach ($array as $namen) {
-    echo "$namen\n";
+$length = count($array);
+for ($i = 0; $i < $length; $i++) {
+  print "$array[$i]\n";
 }
 ?>
